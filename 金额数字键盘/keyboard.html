@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./css/keyboard.css">
+    <title>数字键盘</title>
+</head>
+<body>
+    
+    <div class="money_wrap clearfix">
+        <div class="money_text">金额</div>
+        <div class="money_real">
+            <span>￥</span>
+            <span id="money"></span>
+            <span class="vertical_line">丨</span>
+        </div>
+    </div>
+    <div id="numbers" class="clearfix">
+        <div class="numbers_left">
+            <ul id="num" class="clearfix">
+                <li>
+                    <span>1</span>
+                </li>
+                <li>
+                    <span>2</span>
+                </li>
+                <li>
+                    <span>3</span>
+                </li>
+                <li>
+                    <span>4</span>
+                </li>
+                <li>
+                    <span>5</span>
+                </li>
+                <li>
+                    <span>6</span>
+                </li>
+                <li>
+                    <span>7</span>
+                </li>
+                <li>
+                    <span>8</span>
+                </li>
+                <li>
+                    <span>9</span>
+                </li>
+                <li id="bord">
+                    <span>
+                        <img src="./img/keyboard.png" />
+                    </span>
+                </li>
+                <li>
+                    <span>0</span>
+                </li>
+                <li id="point">
+                    <span>.</span>
+                </li>
+            </ul>
+        </div>
+        <div class="numbers_right">
+            <ul id="ul-submit">
+                <li id="delete">
+                    <span>
+                        <img src="./img/delete.png"/>
+                    </span>
+                </li>
+                <li id="submit">
+                    <button id="submitBtn">
+                        <span>确认支付</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/zepto/1.2.0/zepto.js"></script>
+<script src="https://cdn.bootcss.com/touchjs/0.2.14/touch.min.js"></script>
+<script src="./js/keyboard.js"></script>
+</html>
