@@ -92,6 +92,10 @@ body {
     opacity: 1;
   }
 }
+.real_pay {
+  width: 80%;
+  margin: 3rem auto;
+}
 #numbers {
   width: 100%;
   position: absolute;
@@ -158,8 +162,13 @@ body {
   width: 100%;
   border: none;
   background-color: #bcbcbc;
+  position: relative;
 }
 #numbers .numbers_right #ul-submit #submit #submitBtn span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
   font-size: 1.2rem;

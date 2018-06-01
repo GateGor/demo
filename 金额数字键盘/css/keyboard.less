@@ -85,6 +85,10 @@ html,body{
     50%{opacity: 0;}
     100%{opacity: 1;}
 }
+.real_pay{
+    width: 80%;
+    margin: 3rem auto;
+}
 #numbers{
     width: 100%;
     position: absolute;
@@ -147,7 +151,12 @@ html,body{
                     width: 100%;
                     border: none;
                     background-color: #bcbcbc;
+                    position: relative;
                     span{
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
                         text-align: center;
                         color: #fff;
                         font-size: 1.2rem;
